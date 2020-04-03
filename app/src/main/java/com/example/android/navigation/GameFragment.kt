@@ -48,10 +48,7 @@ class GameFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-
         // Inflate the layout for this fragment
-        //val viewRoot = LayoutInflater.from(context).inflate(R.layout.fragment_game, container, false)
-        //val binding: FragmentGameBinding? = DataBindingUtil.bind(viewRoot)
         val binding = DataBindingUtil.inflate<FragmentGameBinding>(
                 inflater, R.layout.fragment_game, container, false)
 
